@@ -214,17 +214,20 @@ textarea {
 }
 
 /**
- * Start Of GLobal CSS Rules 
+ * Start Of GLobal CSS Rules s
  */
 
-.wrapper {
-  display: grid;
+.wrapper{
+  display:grid;
+  grid-template-columns: 40% 30% 30%;
+  grid-column-gap:1em;
+  grid-row-gap:1em;
 }
-.wrapper > div {
-  background: #eee;
+.wrapper > div{
+  background:#eee;
   padding: 1em;  
  }
 
 .wrapper > div:nth-child(odd){
-  background: #ddd;
+  background:#ddd;
  }
